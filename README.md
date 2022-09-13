@@ -5,7 +5,7 @@
 1. First you need to set .env and php 8.1 apache2 server for run this project
 2. Inside the terminal run => composer install
 3. Inside the terminal run => npm install && npm run dev ( npm run dev for react js compilation )
-4. Inside the terminal run => php artisan db:seed ( for fake data insert inside the DB. Every time you will get 100 records during seed)
+4. Inside the terminal run => php artisan migrate && php artisan db:seed ( for fake data insert inside the DB. Every time you will get 100 records during seed)
 5. Inside the terminal run => php artisan serve ( for generate live url like => 127.0.0.1:8000 )
 6. You can see on the home page there is books listing with functionality of search records of book and with pagination api call
 7. Also for book full details you can click on Full Details button.
